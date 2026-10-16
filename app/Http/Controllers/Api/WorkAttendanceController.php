@@ -36,7 +36,7 @@ class WorkAttendanceController extends Controller
     /**
      * บันทึกข้อมูลเช็คอิน
      */
-    public function store(Request $request)
+    public function store(Request $request5)
     {
         $data = $request->validate([
             'employee_name' => 'required|string|max:255',
