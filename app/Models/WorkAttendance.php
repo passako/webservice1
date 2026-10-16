@@ -10,7 +10,7 @@ class WorkAttendance extends Model
     use HasFactory;
 
     protected $table = 'work_attendances';
-
+  
     protected $fillable = [
         'employee_name',
         'work_date',
